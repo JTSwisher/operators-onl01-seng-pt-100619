@@ -9,7 +9,14 @@ def unsafe?(speed)
 end
 
 
-
+# solution below worked does not make sense though 
+=begin
+def not_safe?(speed)
+	speed > 60 ? false : true
+  speed < 40 ? false : true
+  speed > 40 && speed < 60 ? false : true
+end
+=end
 
 
 
